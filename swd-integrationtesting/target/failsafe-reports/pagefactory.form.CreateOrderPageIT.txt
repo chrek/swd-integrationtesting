@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: pagefactory.form.CreateOrderPageIT
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 11.218 s <<< FAILURE! - in pagefactory.form.CreateOrderPageIT
+testSubmit(pagefactory.form.CreateOrderPageIT)  Time elapsed: 11.015 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: form[name='create-order'] input[name='submit']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'CRISCAR-ASUS', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4664, moz:profile: C:\Users\chr\AppData\Local\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 242c025b-9353-4222-a7cf-7116e4fa13c3
+*** Element info: {Using=css selector, value=form[name='create-order'] input[name='submit']}
+	at pagefactory.form.CreateOrderPageIT.testSubmit(CreateOrderPageIT.java:30)
+

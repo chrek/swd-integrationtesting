@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: basictest.BasicIT
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.016 s <<< FAILURE! - in basictest.BasicIT
+testWeSeeHelloWorld(basictest.BasicIT)  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at basictest.BasicIT.testWeSeeHelloWorld(BasicIT.java:20)
+
